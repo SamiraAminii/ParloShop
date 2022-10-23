@@ -1,0 +1,60 @@
+.cart-toggel {
+  background-color: #fff;
+  width: 320px;
+  padding: 20px;
+  position: absolute;
+  top: 51px;
+  right: 32px;
+  height: calc(100vh-79px);
+  box-shadow: 0 0 20px 0.4px rgb(0 0 0 / 10%);
+  transition: all 0.4s ease 0s;
+}
+.cart-toggel-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #cccccc;
+  padding: 16px 0;
+}
+.cart-toggel-header h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.cart-toggel-close {
+  font-size: 16px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.775);
+}
+.cart-toggel-close:hover {
+  color: #1d939f;
+}
+.cart-toggel-items {
+  padding: 16px 0;
+  border-bottom: 1px solid #cccccc;
+}
+.cart-toggel-totalprice {
+  padding: 16px 0;
+  border-bottom: 1px solid #cccccc;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+}
+.cart-toggel-button {
+  padding: 16px 0;
+  display: grid;
+}
+.cart-toggel-button button {
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #cccccc;
+  padding: 16px;
+  margin: 8px 0;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.3s ease 0s;
+}
+.cart-toggel-button button:hover {
+  background-color: #1d939f;
+  color: #fff;
+  border: 1px solid #1d939f;
+}

@@ -1,0 +1,13 @@
+.setting-content {
+  background-color: #fff;
+  width: 320px;
+  padding: 20px;
+  position: absolute;
+  top: 51px;
+  right: -10px;
+  height: calc(100vh-79px);
+  box-shadow: 0 0 20px 0.4px rgb(0 0 0 / 10%);
+}
+.setting-content ul li{
+    margin: 16px 0;
+}

@@ -1,0 +1,22 @@
+.cart-item {
+  display: flex;
+  justify-content: flex-start;
+  margin: 16px 0;
+  align-items: center;
+}
+.cart-item-img {
+  margin-right: 32px;
+}
+.cart-item-img img {
+  width: 90px;
+  height: 90px;
+}
+.cart-item-description h4 {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+/* .cart-item-description a:hover {
+  color: #1d939f;
+} */

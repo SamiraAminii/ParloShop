@@ -1,0 +1,24 @@
+.my-swiper {
+  max-width: 1440px;
+  margin: 100px auto;
+  text-align: center;
+}
+.each-slid {
+  padding: 40px 0;
+}
+
+.clint-comment {
+  width: 80%;
+  margin: 24px auto;
+}
+.clint-name {
+}
+.clint-name h4 {
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+@media only screen and (max-width: 1024px) {
+  .my-swiper {
+    margin: 0 8px;
+  }
+}

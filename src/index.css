@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 24px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #1f2226;
+}
+a:hover {
+  color: #1d939f;
+}
+a,
+button {
+  transition: all 0.4s ease 0s;
+}
